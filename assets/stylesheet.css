@@ -1,3 +1,21 @@
+*{
+    box-sizing: border-box;
+}
 header {
     background-color:teal;
+}
+nav{
+    display:table-row;
+    justify-content: flex-start;
+    background-color: turquoise;
+}
+.img {
+    display: flex;
+    max-width: 20px;
+    max-height: 20px;
+    
+}
+body{
+    display: table-row;
+    background-color: white;
 }
