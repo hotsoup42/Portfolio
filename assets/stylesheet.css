@@ -5,17 +5,38 @@ header {
     background-color:teal;
 }
 nav{
-    display:table-row;
-    justify-content: flex-start;
-    background-color: turquoise;
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(7, 73, 73);
+    font-size: 2em;
+    color: white;
 }
-.img {
+
+
+
+section {
+    font-family: Arial;
+    background-color: royalblue;
     display: flex;
-    max-width: 20px;
-    max-height: 20px;
+    margin: 50px;
+    flex-direction: column;
+    min-height: 50vh;
+   
+  
+  }
+
+  img {
+    display:flex;
+    justify-content:space-between;
+   align-self: center;
+    height: auto;
+    max-width: auto;
+    width: 25%;
+    padding: .5em;  
+    border: solid; color: red;
+   
     
 }
-body{
-    display: table-row;
-    background-color: white;
-}
+
+    
+    
