@@ -1,52 +1,40 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    background-color:#1a2238
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #1a2238;
+ 
 }
- body{
-   display: flex;
-   flex-direction: column;
 
-
- }
 /*header*/
 
-header{
+header {
   display: flex;
 
   justify-content: space-between;
 
-  padding-top:20px;
+  padding-top: 20px;
 
-   border-bottom: 5px solid black;
-   
+  border-bottom: 5px solid black;
 
   margin-bottom: 10px;
-
 }
 
-
 h1 {
-  font-family:monospace;
+  font-family: monospace;
 
   font-size: 2.5em;
 
   font-weight: thick;
 
   color: black;
-  
+
   background-color: #ff6a3d;
 
   padding-left: 10px;
-
 }
 
-
-
-
 /*nav links*/
-.navLinks{
-  
+.navLinks {
   display: grid;
 
   grid-template-columns: auto auto auto auto;
@@ -56,128 +44,114 @@ h1 {
   background-color: #ff6a3d;
 
   padding: 10px;
-  
 }
-nav{
+nav {
+  justify-content: space-between;
+}
 
-  justify-content:space-between;
-}
-  
-a{
+a {
   color: white;
- 
+
   font-size: 1.1em;
 
-  background-color:#ff6a3d ;
+  background-color: #ff6a3d;
 }
 /* </header> */
-
-
-
 
 /*main */
 
 main {
-display: flex;
-flex-wrap: wrap;
-
-}
-
-
-
-/* section*/ 
-
-section{
   display: flex;
-
+  flex-wrap: wrap;
 }
 
-h2{
+/* section*/
+
+section {
+ display: flex;
+}
+
+h2 {
+  color: #ff6a3d;
+
+  border-right: black solid 3px;
+
   
-  color:#ff6a3d;
+ margin: 20px;
+  
 
- 
-   border-right:black solid 3px;
- margin-left: 50px;
+  padding: 1px;
 
- padding:1px;
- 
- padding-bottom: 150px;
+
 }
 
 .contact-info {
- display: flex;
+  display: flex;
   justify-content: space-between;
 }
 /*profile pic*/
 .img-container {
   display: flex;
+  flex-wrap: wrap;
 }
-.profilepic{
-  
-  margin-left: 20px;
-  max-width:100%; 
+.profilepic {
+ height:200px;
+  width: 200px;
 }
 
-
-p{
-  margin: 20px;;
-
+p {
+  display: inline;
   color: white;
-  
-  }
-
-
+  width:75%;
+  margin:10px;
+}
 
 /*applications*/
-.applications-container{
-
-display: flex;
-flex-flow: wrap;
-justify-content: center;
-
+.applications-container {
+ display: flex;
+ 
 }
-.applications{
-  margin:5px;
+.applications {
+
+
+ max-width:200px;
+  margin: 5px;
   border-radius: 10%;
-  max-width: 25%;
+  
   border: #ff6a3d 5px solid;
+  
 }
-
-
-
 
 /* footer*/
 
 footer {
-    display: flex;
+  display: flex;
 
-    justify-content: center; 
+  justify-content: center;
 
-    font-weight: 2em;
+  font-weight: 2em;
 
-    margin-top: 100px;
-     
-    margin-left: 800px;
+  margin-top: 100px;
+
+  margin-left:80px;
 }
 
-
 @media only screen and (max-width: 1500px) {
-    *{
-      background-color: red;
-    }
+  * {
+    background-color: red;
   }
+}
 
 @media only screen and (max-width: 750px) {
-        *{
-          background-color: lightblue;
-        }
-      }
-    
-@media only screen and (max-width: 500px) {
-    *{
-      background-color: blue;
-    }
+  * {
+    background-color: lightblue;
   }
+}
 
-/* border-bottom: left*/  
+@media only screen and (max-width: 500px) {
+  * {
+    background-color: blue;
+  }
+}
+
+/* border-bottom: left*/
